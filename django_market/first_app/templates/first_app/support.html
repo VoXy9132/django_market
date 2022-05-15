@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<link rel="stylesheet" href="{% static 'css/style.css'%}" type="text/css">
+</head>
+<body>
+<background>
+    <back><a href="{% url 'logout'}"><logout><text>войти</text></logout></a></back>
+    <fot><logo>Market Gadjet</logo></fot>
+    <sep></sep>
+    <cap>
+    <message><a href="{% url 'sup'%}">Поддержка</a></message><message><a href="{% url 'dev'%}">Для разработчиков</a></message><message><a href="{% url 'shop'%}">Магазин</a></message>
+    </cap>
+    <content>
+        <content-block>
+            <par><text-content>Если есть вопросы или предложения, пишите на <div>voxy9132@gmail.com</div></text-content></text-content></par>
+        </content-block>
+    </content>
+    <sep></sep>
+    <foot><ddc>Покупай игры с Market Gadjet</ddc></foot>
+</background>
+</body>
+</body>
+</html>

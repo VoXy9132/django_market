@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<link rel="stylesheet" href="{% static 'css/style.css'%}" type="text/css">
+</head>
+<body>
+<background>
+    <back><a href="{% url 'logout'}"><logout><text>войти</text></logout></a></back>
+    <fot><logo>Market Gadjet</logo></fot>
+    <sep></sep>
+    <cap>
+    <message><a href="{% url 'sup'%}">Поддержка</a></message><message><a href="{% url 'dev'%}">Для разработчиков</a></message><message><a href="{% url 'shop'%}">Магазин</a></message>
+    </cap>
+    <content>
+        <content-block>
+
+        <image>
+        <img src="css/images/Tin_can.jpg">
+        <par><div>299 руб</div><div><pars>Tin can</pars></div></par>
+        <a href="dadw"><button>купить</button></a>
+        </image>
+        </content-block>
+        <sep-blue></sep-blue>
+        <content-block>
+        <image>
+        <img src="css/images/Dorfromantik.jpg">
+        <par><div>499 руб</div><div><pars>Dorfromantik</pars></div></par>
+        <a href="dadw"><button>купить</button></a>
+        </image>
+        </content-block>
+        <sep-blue></sep-blue>
+        <content-block>
+        <image>
+        <img src="css/images/Retrowave.jpg">
+        <par><div>399 руб</div><div><pars>Retrowave</pars></div></par>
+        <a href="dadw"><button>купить</button></a>
+        </image>
+        </content-block>
+        <sep-blue></sep-blue>
+        <content-block>
+        <image>
+        <img src="css/images/Soundfall.jpg">
+        <par><div>299 руб</div><div><pars>Soundfall</pars></div></par>
+        <a href="dadw"><button>купить</button></a>
+        </image>
+        </content-block>
+    </content>
+    <sep></sep>
+    <foot><ddc>Покупай игры с Market Gadjet</ddc></foot>
+</background>
+</body>
+</body>
+</html>

@@ -1,0 +1,111 @@
+@move {
+    from { left: 0; }
+    to { left: 300px; }
+}
+background {
+    background-image: url('images/background.jpg');
+    width: 90;
+    height: 1500px;
+    }
+message{
+    display: inline;
+    font-size: 25px;
+    margin-left: 50px;
+}
+cap {
+    display: block;
+    background-image: url('images/back.jpg');
+    width: 80;
+    height: 35px;
+}
+content {
+    display: block;
+    background-color: #6b549c;
+    width: 90;
+    min-height: 450px;
+}
+fot {
+    display: block;
+    padding-top: 15px;
+    background-image: url('images/back.jpg');
+    width: 80;
+    height: 50px;
+}
+logo{
+    color: #b1c9bf;
+    display: inline;
+    font-size: 30px;
+    margin-left: 70px;
+}
+sep{
+    display: block;
+    background-color: black;
+    height: 2px;
+}
+back{
+    display:flex;
+    background-color: black;
+    height: 25px;
+}
+logout{
+    background-color: yellow;
+    height: 25px;
+    width: 75px;
+    position: absolute;
+    right: 10px;
+    display: flex;
+}
+text{
+    padding-left: 20%;
+    vertical-align: middle;
+}
+text{
+    display: block;
+    direction: column;
+}
+content-block{
+    display: flex;
+    height: 100px;
+}
+image{
+    height: 100px;
+    width: 100px;
+}
+par{
+    flex-direction: column;
+    height: 90px;
+    padding: 25px 25px 25px 25px;
+}
+pars{
+    padding-top: 10px;
+}
+button{
+    background-color: yellow;
+    margin: 30px 30px 30px 30px;
+    height: 35px;
+    position: absolute;
+    left: 550px;
+}
+sep-blue{
+    display: block;
+    background-color: blue;
+    height: 2px;
+}
+ddc{
+    color: #b1c9bf;
+    display: inline;
+    font-size: 18px;
+    margin-left: 40px;
+}
+foot {
+    display: block;
+    padding-top: 15px;
+    background-image: url('images/back.jpg');
+    width: 80;
+    height: 100px;
+}
+text-content{
+    font-size: 20px;
+}
+
+
