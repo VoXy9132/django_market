@@ -1,0 +1,70 @@
+@move {
+    from { left: 0; }
+    to { left: 300px; }
+}
+background {
+    background-image: url('images/background.jpg');
+    width: 90;
+    height: 1500px;
+    }
+message{
+    display: inline;
+    font-size: 25px;
+    margin-left: 50px;
+}
+cap {
+    display: block;
+    background-image: url('images/back.jpg');
+    width: 80;
+    height: 35px;
+}
+content {
+    display: block;
+    background-color: #6b549c;
+    width: 90;
+    height: 90;
+}
+fot {
+    display: block;
+    padding-top: 15px;
+    background-image: url('images/back.jpg');
+    width: 80;
+    height: 50px;
+}
+logo{
+    color: #b1c9bf;
+    display: inline;
+    font-size: 30px;
+    margin-left: 70px;
+}
+sep{
+    display: block;
+    background-color: black;
+    height: 2px;
+}
+back{
+    display:flex;
+    background-color: black;
+    height: 25px;
+}
+logout{
+    background-color: yellow;
+    height: 25px;
+    width: 75px;
+    position: absolute;
+    right: 10px;
+    display: flex;
+}
+text{
+    padding-left: 20%;
+    vertical-align: middle;
+}
+text{
+    display: block;
+    direction: column;
+}
+blocks{
+    display: block;
+}
+
+
