@@ -63,8 +63,8 @@ text{
     display: block;
     direction: column;
 }
-blocks{
-    display: block;
+content-block{
+    display: flex;
 }
 
 
