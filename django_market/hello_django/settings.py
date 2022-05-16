@@ -81,8 +81,15 @@ WSGI_APPLICATION = 'hello_django.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    }
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'db_regis',
+#        'USER': 'root',
+#        'PASSWORD': '12345',
+#        'HOST': 'localhost',
+#    }
+#}
 
 
 
