@@ -24,8 +24,8 @@ def tin_can(request):
 def dorfromantik(request):
     return render(request, 'first_app/dorfromantik.html')
 
-#def dorfromantik(request):
-#    return render(request, 'first_app/dorfromantik.html')
+def gapr(request):
+    return render(request, 'first_app/game_of_proj.html')
 
 
 
