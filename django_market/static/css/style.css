@@ -198,7 +198,19 @@ sep-no{
     background-color: #42035908;
     height: 10px;
 }
-
+shop_but_content_block
+{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    right: -36px;
+    top: 350px;
+}
+shop_but_content{
+    position: absolute;
+    font-size: 30px;
+}
 
 
 

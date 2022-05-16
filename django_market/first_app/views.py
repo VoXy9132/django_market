@@ -18,6 +18,9 @@ def developers(request):
 def signin(request):
     return render(request, 'first_app/signin.html')
 
+def tin_can(request):
+    return render(request, 'first_app/tin_can.html')
+
 
 
 
