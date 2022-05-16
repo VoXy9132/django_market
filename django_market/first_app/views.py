@@ -21,6 +21,12 @@ def signin(request):
 def tin_can(request):
     return render(request, 'first_app/tin_can.html')
 
+def dorfromantik(request):
+    return render(request, 'first_app/dorfromantik.html')
+
+#def dorfromantik(request):
+#    return render(request, 'first_app/dorfromantik.html')
+
 
 
 
