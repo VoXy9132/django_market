@@ -59,7 +59,7 @@ back{
     height: 25px;
 }
 logout{
-    background-color: yellow;
+    background-color: #420359;
     height: 25px;
     width: 75px;
     position: absolute;
@@ -69,6 +69,7 @@ logout{
 text{
     padding-left: 20%;
     vertical-align: middle;
+    color: #e1defc;
 }
 text{
     display: block;
@@ -177,5 +178,28 @@ shop_but{
     left: 1200px;
     font-size: 20px;
 }
+
+paragraph{
+    display: inline;
+
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    margin-left: 100;
+    min-width: 300px;
+    height: 25px;
+    font-size: 25px;
+    position: relative;
+    right: -500px;
+    padding: 5px 5px 5px 5px;
+
+}
+sep-no{
+    display: block;
+    background-color: #42035908;
+    height: 10px;
+}
+
+
+
 
 

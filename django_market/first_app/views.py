@@ -15,5 +15,9 @@ def logout(request):
 def developers(request):
     return render(request, 'first_app/developers.html')
 
+def signin(request):
+    return render(request, 'first_app/signin.html')
+
+
 
 
